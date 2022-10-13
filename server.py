@@ -1,6 +1,6 @@
 from flask import Flask
 
-from login_form import LoginForm
+from Flask.login_form import LoginForm
 from flask import render_template
 
 

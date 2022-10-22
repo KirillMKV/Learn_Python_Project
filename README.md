@@ -1,1 +1,4 @@
-# Learn_Python_Project
+# Отчетный проект курса Learn Python
+
+## Задачи:
+

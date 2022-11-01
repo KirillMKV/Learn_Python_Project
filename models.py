@@ -7,8 +7,8 @@ db = SQLAlchemy()
 class User(db.Model, UserMixin):
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(64), index=True, unique=True)
-    first_name = db.Column(db.String(), index = True)
-    last_name = db.Column(db.String(), index = True)
+    first_name = db.Column(db.String())
+    last_name = db.Column(db.String())
     password = db.Column(db.String(10))
     role = db.Column(db.String(10), index=True)
     
